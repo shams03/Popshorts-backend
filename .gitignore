@@ -18,6 +18,7 @@ backend/shorts/
 
 # Docs
 *.md
+!README.md
 
 # Virtual Environments
 venv/
