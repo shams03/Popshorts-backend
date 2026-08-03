@@ -1,0 +1,64 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.installed.cfg
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Credentials & Environment
+.env
+.env.local
+secrets/
+client_secrets.json
+*.key
+*.pem
+.env.*.local
+
+# Media
+*.mp4
+
+# Data & Logs
+*.pkl
+*.pickle
+*.csv
+*.json
+output/
+temp/
+*.log
+logs/
+
+# Testing
+testing/
+
+# OS
+.DS_Store
+Thumbs.db
+

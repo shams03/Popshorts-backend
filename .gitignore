@@ -1,0 +1,35 @@
+# Secrets & credentials
+secrets/
+secrets.zip
+**/client_secrets.json
+**/youtube_credentials.pkl
+*.pkl
+*.pickle
+
+# Generated shorts / media
+backend/shorts/
+*.mp4
+*.wav
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Docs
+*.md
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Testing
+testing/

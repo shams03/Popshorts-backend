@@ -1,0 +1,87 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv
+.venv
+env
+.env
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Temporary files
+temp_uploads/*
+.ipynb_checkpoints/
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Documentation
+docs/
+*.md
+
+# Node/Frontend (if applicable)
+node_modules/
+.next/
+dist/
+
+# Secrets and credentials
+secrets/
+.env
+.env.local
+client_secrets.json
+
+# Build artifacts
+*.so
+*.o
+*.a
+
+
+testing/
+__pycache__/
+.git/
+venv/

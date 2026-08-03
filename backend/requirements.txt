@@ -1,0 +1,29 @@
+# Core API
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+
+# LLM / transcription / YouTube
+google-genai
+groq
+Pillow
+assemblyai
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+# Video / vision
+opencv-python
+mediapipe
+numpy<2.0.0
+ffmpeg-python
+
+# PyTorch — keep torch + torchaudio on the SAME version
+torch==2.5.1
+torchaudio==2.5.1
+
+# Speaker diarization (optional at runtime — soft-fails if model unavailable)
+pyannote.audio==3.3.2
+huggingface_hub
